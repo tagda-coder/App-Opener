@@ -1,0 +1,36 @@
+#!/usr/bin/bash 
+clear
+echo
+pkg install pv -y >/dev/null 2>&1
+echo -e "\033[32m\033[1m]────────────────────────────────────────────["
+echo -e "\033[33m\033[1m   Installing Packages and All Dependencies" | pv -qL 10
+pkg install python -y >/dev/null 2>&1
+pkg install pv -y >/dev/null 2>&1
+gem install lolcat >/dev/null 2>&1
+pkg install python2 -y >/dev/null 2>&1
+pkg install termux-api -y >/dev/null 2>&1
+echo -e "\033[31m\033[1m        INSTALLED SUCCESSFULLY \033[32m[\033[36m✓\033[32m]" | pv -qL 12
+echo -e "\033[33m\033[1m]────────────────────────────────────────────["
+sleep 3
+echo
+echo
+echo -e "\033[36m\033[1m > Make Sure You Have Installed \033[32mTermux-Api App \033[36mFrom Playstore <" | pv -qL 15
+sleep 2
+echo
+read -p $'           \033[1m\033[38;5;209m[Yes or No] : \033[36m' opt
+if [ $opt == 'Yes' ] || [ $opt == 'y' ] || [ $opt == 'yes' ] || [ $opt == 'Y' ];
+then
+clear 
+echo
+sleep 1
+echo -e "   [$] \033[31m\033[1mYour Tool is Starting....! Please Wait " | lolcat 
+sleep 2
+python App-Opener.py 
+else
+echo 
+echo -e "      \033[31m\033[1mInstalled It From PlayStore"
+sleep 3
+termux-open-url https://play.google.com/store/apps/details?id=com.termux.api
+fi
+
+
