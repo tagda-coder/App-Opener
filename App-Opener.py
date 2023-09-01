@@ -2,31 +2,31 @@
 import os 
 os.system("clear")
 """ 
-Hey Guys Welcome Back to Coders Legion Script 
-Here We create Very Amazing Script which will help you to easy your Task ..
+Hey Guys Welcome Back to Tagda Coder Script. 
+Here We have create Very Amazing Script which will help you to open Your Desire Apps in single click...
            Requirements For This Tool 
            -------------------------
-           1.Python Programming
+           1.Python Programming | Channel Par Basic Upload hai 
            2.And Practice 
            -------------------------
 
-If You also Want to Learn Coding And Making Script like Us .
+If You also Want to Learn Coding And Making Script like me .
 
-so You Must Visit our Channel {Coders Legion}
+Then Go and  Must Visit our Channel {TAGDA CODER}
 On YouTube.
 
-This Tool Is Created By Our Community Guidelines :- Mr.Mandeep And NI7RO.
+This Tool Is Created By Me :- Mandeep Malakar
 """
 
 #=====================  ================
-# Code Start From Here  Don't Be Copy Paster
+# Code Start From Here | Don't Be Copy Paster
 #=====================  ================
 
 # Be a Unique 
 # Banner And Interface Of Tool .
 print("""\033[1m\033[41m         \033[42m        \033[42m           \033[45m      \033[46m           \033[0m""")
 print("""\033[32m\033[1m  
-        ╲    ╱    \033[35m  \033[31mYouTube   :\033[37m Coders Legion
+        ╲    ╱    \033[35m  \033[31mYouTube   :\033[37m Tagda Coder
         ╱▔▔▔▔╲    \033[33m╿ \033[31mTool Name : \033[37mApp-Opener
        \033[32m┃ \033[31m▇  \033[31m▇ \033[32m┃   \033[31m│ Country   : \033[37mIndia 
      ╭╮┣━━━━━━┫╭╮ \033[35m╽ \033[31mVersion   : \033[37m1.0         
@@ -121,10 +121,9 @@ else :
     os.system("python App-Opener.py")
 
 
-# You Can Use this Code to Implement And Enhance The Features of The Tool ..
-
-
-# But Give Credits 
+# You Can Use this Code to your script or you want to Enhance The Features of This Tool ..
+# But Don't Forget to Give Credits .
+# Thank You
 
 
 
